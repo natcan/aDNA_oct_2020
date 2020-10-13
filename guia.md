@@ -33,5 +33,25 @@ Datos de aDNA: https://www.ebi.ac.uk/ena/browser/view/SRP008060
 
 ### Create directories
 
-
 ### Remove adaptors (trimming/cleaning)
+
+### Control de calidad
+
+### Mapping al genoma de referencia
+.
+.
+.
+Convertir a formato .sam
+
+### Filtrar duplicados de PCR
+
+### Análisis de daño asociado a DNA antiguo
+
+con maDamage
+
+
+## O la forma fácil usando pipelines
+
+### paleomix
+
+bam_pipeline
