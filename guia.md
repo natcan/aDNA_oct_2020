@@ -25,6 +25,14 @@ DeDup v. 0.12.6 (Peltzer et al., 2016) [https://github.com/apeltzer/DeDup]
 
 mapDamage v. 2.2.1 (Jónsson et al., 2013) [https://github.com/ginolhac/mapDamage]
 
+R v. 3.6
+
+Bowtie2 v. 2.3.5.1
+
+picard v. 2.21.1
+
+ PALEOMIX v. 1.2.14
+
 ### Files
 
 Genoma de referencia: https://www.ncbi.nlm.nih.gov/nuccore/NC_003143.1/
@@ -54,4 +62,6 @@ con maDamage
 
 ### paleomix
 
+Memoria necesaria
+uso de .yaml
 bam_pipeline
