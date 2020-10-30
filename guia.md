@@ -8,19 +8,21 @@ Para demostrar qué pasos se siguen para el análisis genómico de muestras anti
 ### Files
 
 Genoma de referencia: _Cinchona pubescens_  
+
+Si el genoma de referencia está disponible, en NCBI (https://www.ncbi.nlm.nih.gov/)
 > GenBank (ahora .fasta) y Send to (ahora File)
 
 Datos de aDNA: transferir de un backup
 ```scp ./old_gs/PRI-VIMCR-Ccalisaya3_S10_L008_R1_001.fastq.gz natcan@saga.sigma2.no:/cluster/work/users/natcan/evo_2020```
 
-Tedioso: Prueba Filezilla
+Tedioso?: Prueba Filezilla
 
 
 ## Análisis bioinformático para la autenticación y limpieza de aDNA
 
 
 
-```vim ``` editar el .yaml file de acuerdo a la configuración
+Usando ```vim ``` editar el .yaml file de acuerdo a la configuración
 
 ### Software
 
@@ -49,38 +51,42 @@ mkdir evo_2020
 
 In .yaml:
 
-```QualityOffset: Solexa ``` la tecnología usada
-
-```    Path: /cluster/work/users/natcan/evo_oct_2020/sequence_y_pestisCO92.fasta``` indica el genoma de referencia
+```    Path: /cluster/work/users/natcan/evo_oct_2020/CP9104_hyb_HP1_LSC_IR_SCC_IR_right_dir.fasta``` indica el genoma de referencia
     
-```Ypestis:
+```Ccalisaya:
   MySample:
-    ypestis:
-      Lane_1: /cluster/work/users/natcan/evo_oct_2020/ypestis_cat.fastq
+    Ccalisaya:
+      Lane_1: /cluster/work/users/natcan/evo_oct_2020/PRI-VIMCR-Ccalisaya3_S10_L008_R1_001.fastq.gz
 ```
-las muestras
+la muestra
  
 ### Remove adaptors (trimming/cleaning)
 
+Con AdapterRemoval
+
 ### Control de calidad
 
+Con Fastqc, ver la calidad de los reads crudos y de los reads ya limpios.
+
 ### Mapping al genoma de referencia
-.
-.
-.
-Convertir a formato .sam
+
+ver el .bam file en Geneious para visualizar el mapeo.
+
+Luego obtener el genoma consenso. 
 
 ### Filtrar duplicados de PCR
 
+Con picard tools
+Ver el .summary file para ver la cantidad de duplicados.
+
 ### Análisis de daño asociado a DNA antiguo
 
-con maDamage
-
-
-## O la forma fácil usando pipelines
+Con mapDamage ver los patrones de daño post-mortem.
 
 ### paleomix
 
-Memoria necesaria
-uso de .yaml
-bam_pipeline
+Ver el uso de .yaml en https://paleomix.readthedocs.io/en/latest/bam_pipeline/
+
+A tener en cuenta:
+- Tiempo necesario
+- Memoria necesaria
