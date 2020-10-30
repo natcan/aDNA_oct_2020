@@ -1,0 +1,222 @@
+Starting job 1454735 on c6-7 at Thu Oct 29 19:20:12 CET 2020
+
+  1) StdEnv
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) StdEnv
+
+The following have been reloaded with a version change:
+  1) Python/3.6.6-foss-2018b => Python/2.7.15-foss-2018b
+
+
+Currently Loaded Modules:
+  1) StdEnv                                     (S)
+  2) GCCcore/7.3.0
+  3) zlib/1.2.11-GCCcore-7.3.0                  (H)
+  4) binutils/2.30-GCCcore-7.3.0                (H)
+  5) GCC/7.3.0-2.30
+  6) hpcx/2.4
+  7) OpenMPI/3.1.1-GCC-7.3.0-2.30
+  8) OpenBLAS/0.3.1-GCC-7.3.0-2.30
+  9) gompi/2018b
+ 10) FFTW/3.3.8-gompi-2018b
+ 11) ScaLAPACK/2.0.2-gompi-2018b-OpenBLAS-0.3.1
+ 12) foss/2018b
+ 13) bzip2/1.0.6-GCCcore-7.3.0                  (H)
+ 14) expat/2.2.5-GCCcore-7.3.0                  (H)
+ 15) libpng/1.6.34-GCCcore-7.3.0                (H)
+ 16) freetype/2.9.1-GCCcore-7.3.0               (H)
+ 17) ncurses/6.1-GCCcore-7.3.0                  (H)
+ 18) util-linux/2.32-GCCcore-7.3.0              (H)
+ 19) fontconfig/2.13.0-GCCcore-7.3.0            (H)
+ 20) X11/20180604-GCCcore-7.3.0                 (H)
+ 21) GMP/6.1.2-GCCcore-7.3.0                    (H)
+ 22) nettle/3.4-foss-2018b                      (H)
+ 23) libdrm/2.4.92-GCCcore-7.3.0                (H)
+ 24) LLVM/6.0.0-GCCcore-7.3.0                   (H)
+ 25) XZ/5.2.4-GCCcore-7.3.0                     (H)
+ 26) libunwind/1.2.1-GCCcore-7.3.0              (H)
+ 27) Mesa/18.1.1-foss-2018b                     (H)
+ 28) libGLU/9.0.0-foss-2018b                    (H)
+ 29) pixman/0.34.0-GCCcore-7.3.0                (H)
+ 30) libffi/3.2.1-GCCcore-7.3.0                 (H)
+ 31) libxml2/2.9.8-GCCcore-7.3.0                (H)
+ 32) gettext/0.19.8.1-GCCcore-7.3.0             (H)
+ 33) PCRE/8.41-GCCcore-7.3.0                    (H)
+ 34) GLib/2.54.3-GCCcore-7.3.0                  (H)
+ 35) cairo/1.14.12-GCCcore-7.3.0                (H)
+ 36) libreadline/7.0-GCCcore-7.3.0              (H)
+ 37) Tcl/8.6.8-GCCcore-7.3.0                    (H)
+ 38) SQLite/3.24.0-GCCcore-7.3.0                (H)
+ 39) NASM/2.13.03-GCCcore-7.3.0                 (H)
+ 40) libjpeg-turbo/2.0.0-GCCcore-7.3.0          (H)
+ 41) LibTIFF/4.0.9-GCCcore-7.3.0                (H)
+ 42) Java/1.8.0_212
+ 43) Tk/8.6.8-GCCcore-7.3.0                     (H)
+ 44) cURL/7.60.0-GCCcore-7.3.0                  (H)
+ 45) Szip/2.1.1-GCCcore-7.3.0                   (H)
+ 46) HDF5/1.10.2-foss-2018b
+ 47) netCDF/4.6.1-foss-2018b
+ 48) GEOS/3.6.2-foss-2018b-Python-3.6.6
+ 49) JasPer/2.0.14-GCCcore-7.3.0                (H)
+ 50) PROJ/5.0.0-foss-2018b
+ 51) libgeotiff/1.4.2-foss-2018b                (H)
+ 52) GDAL/2.2.3-foss-2018b-Python-3.6.6
+ 53) NLopt/2.4.2-GCCcore-7.3.0                  (H)
+ 54) libsndfile/1.0.28-GCCcore-7.3.0            (H)
+ 55) ICU/61.1-GCCcore-7.3.0                     (H)
+ 56) UDUNITS/2.2.26-foss-2018b
+ 57) GSL/2.5-GCC-7.3.0-2.30
+ 58) R/3.5.1-foss-2018b
+ 59) Python/2.7.15-foss-2018b
+ 60) Pysam/0.15.1-foss-2018b-Python-2.7.15
+ 61) PALEOMIX/1.2.14-foss-2018b-Python-2.7.15
+ 62) HTSlib/1.9-foss-2018b
+ 63) AdapterRemoval/2.3.1-foss-2018b
+ 64) SAMtools/1.9-foss-2018b
+ 65) mapDamage/2.0.9-foss-2018b-Python-2.7.15
+ 66) BWA/0.7.17-foss-2018b
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Reading makefiles ...
+  - Validating prefixes ...
+Building BAM pipeline .
+Running BAM pipeline ...
+  - Checking file dependencies ...
+  - Checking for required executables ...
+  - Checking version requirements ...
+    - Checking version of 'Rscript' ...
+    - Checking version of 'AdapterRemoval' ...
+    - Checking version of 'GenomeAnalysisTK' ...
+    - Checking version of 'Picard tools' ...
+    - Checking version of 'bwa' ...
+    - Checking version of 'mapDamage' ...
+    - Checking version of 'samtools' ...
+  - Determining states ...
+  - Ready ...
+
+
+19:21:14 Running 1 task using ~16 of max 64 threads; 4 done of 23 tasks in 0s; press 'h' for help.
+  - <AdapterRM (SE): '/cluster/work/users/natcan/evo_oct_2020/PRI-VIMCR-Ccalisaya3_S10_L008_R1_001.fastq.gz' -> 'Ypestis/reads/MySample/ypestis/Lane_1/reads.*'>
+
+
+19:25:06 Running 1 task using ~1 of max 64 threads; 5 done of 23 tasks in 3:52s; press 'h' for help.
+  - <BWA (CP9104_hyb_HP1_LSC_IR_SCC_IR_right_dir, Backtrack): 'Ypestis/reads/MySample/ypestis/Lane_1/reads.truncated.gz'>
+
+
+19:26:40 Running 1 task using ~1 of max 64 threads; 6 done of 23 tasks in 5:25s; press 'h' for help.
+  - <BWA Samse (CP9104_hyb_HP1_LSC_IR_SCC_IR_right_dir): 'Ypestis/reads/MySample/ypestis/Lane_1/reads.truncated.gz'>
+
+
+19:28:31 Running 1 task using ~1 of max 64 threads; 7 done of 23 tasks in 7:17s; press 'h' for help.
+  - <Validate BAM: 'Ypestis/CP9104_HP1/MySample/ypestis/Lane_1/single.bam'>
+
+
+19:28:41 Running 2 tasks using ~2 of max 64 threads; 8 done of 23 tasks in 7:27s; press 'h' for help.
+  - <Coverage: Ypestis/CP9104_HP1/MySample/ypestis/Lane_1/single.bam -> 'Ypestis/CP9104_HP1/MySample/ypestis/Lane_1/single.coverage'>
+  - <MarkDuplicates: 'Ypestis/CP9104_HP1/MySample/ypestis/Lane_1/single.bam'>
+
+
+19:29:01 Running 1 task using ~1 of max 64 threads; 9 done of 23 tasks in 7:46s; press 'h' for help.
+  - <MarkDuplicates: 'Ypestis/CP9104_HP1/MySample/ypestis/Lane_1/single.bam'>
+
+
+19:29:41 Running 1 task using ~1 of max 64 threads; 10 done of 23 tasks in 8:27s; press 'h' for help.
+  - <BAMIndex (BAI): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam'>
+
+
+19:29:43 Running 1 task using ~1 of max 64 threads; 11 done of 23 tasks in 8:28s; press 'h' for help.
+  - <Validate BAM: 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam'>
+
+
+19:30:06 Running 5 tasks using ~5 of max 64 threads; 12 done of 23 tasks in 8:52s; press 'h' for help.
+  - <Coverage: Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam -> 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.coverage'>
+  - <DepthHistogram: 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.depths'>
+  - <Detect Input Duplication: 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam'>
+  - <Detect Input Duplication: 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:07 Running 4 tasks using ~4 of max 64 threads; 14 done of 23 tasks in 8:53s; press 'h' for help.
+  - <Coverage: Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam -> 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.coverage'>
+  - <DepthHistogram: 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.depths'>
+  - <GATK Indel Realigner (training): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis/CP9104_HP1.intervals'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:12 Running 3 tasks using ~3 of max 64 threads; 16 done of 23 tasks in 8:57s; press 'h' for help.
+  - <GATK Indel Realigner (training): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis/CP9104_HP1.intervals'>
+  - <MergeCoverage: 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.coverage' -> 'Ypestis.CP9104_HP1.coverage'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:12 Running 3 tasks using ~3 of max 64 threads; 17 done of 23 tasks in 8:57s; press 'h' for help.
+  - <GATK Indel Realigner (training): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis/CP9104_HP1.intervals'>
+  - <Summary: Ypestis.summary>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:12 Running 2 tasks using ~2 of max 64 threads; 18 done of 23 tasks in 8:57s; press 'h' for help.
+  - <GATK Indel Realigner (training): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis/CP9104_HP1.intervals'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:31 Running 2 tasks using ~2 of max 64 threads; 19 done of 23 tasks in 9:17s; press 'h' for help.
+  - <GATK Indel Realigner (aligning): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.realigned.bam'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:51 Running 2 tasks using ~2 of max 64 threads; 20 done of 23 tasks in 9:37s; press 'h' for help.
+  - <BAMIndex (BAI): 'Ypestis.CP9104_HP1.realigned.bam'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:52 Running 2 tasks using ~2 of max 64 threads; 21 done of 23 tasks in 9:37s; press 'h' for help.
+  - <Validate BAM: 'Ypestis.CP9104_HP1.realigned.bam'>
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+
+19:30:57 Running 1 task using ~1 of max 64 threads; 22 done of 23 tasks in 9:43s; press 'h' for help.
+  - <mapDamage (plots): 'Ypestis/CP9104_HP1/MySample/ypestis.rmdup.normal.bam' -> 'Ypestis.CP9104_HP1.mapDamage/ypestis'>
+
+Done ...
+
+  Number of nodes:             23
+  Number of done nodes:        23
+  Number of runable nodes:     0
+  Number of queued nodes:      0
+  Number of outdated nodes:    0
+  Number of failed nodes:      0
+  Pipeline runtime:            9:57s
+
+Use --list-output-files to view status of output files.
+
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+1454735         bam_pip          2                                             00:11:00      0:0 
+1454735.bat+      batch          2        1   00:10:06          0   00:10:06   00:11:00      0:0 
+1454735.ext+     extern          2        1   00:00:00          0   00:00:00   00:11:00      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+1454735                                                                          
+1454735.bat+  12619104K          0  12619104K    78286              0      78286 
+1454735.ext+          0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+1454735                                                                                               
+1454735.bat+       31.67M               0         31.67M        0.48M                0          0.48M 
+1454735.ext+        0.00M               0          0.00M            0                0              0 
+
+Job 1454735 completed at Thu Oct 29 19:31:12 CET 2020

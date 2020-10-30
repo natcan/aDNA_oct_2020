@@ -1,0 +1,71 @@
+# Command:
+#     /cluster/software/PALEOMIX/1.2.14-foss-2018b-Python-2.7.15/bin/paleomix bam_pipeline run --jre-option -Xmx200g --jar-root=/cluster/home/natcan/install/ ccalisaya_test.yaml
+#
+# Directory:
+#     /cluster/work/users/natcan/evo_oct_2020
+#
+# Makefile:
+#     Filename: ccalisaya_test.yaml
+#     SHA1Sum:  ec665269a0c1692eba8c1572ba12d21cd711a6a5
+#     MTime:    2020-10-29 19:10:46
+#
+# Genomes:
+#     Name          Label    Contigs    Size      Prefix
+#     CP9104_HP1    -        1          156985    /cluster/work/users/natcan/evo_oct_2020/CP9104_hyb_HP1_LSC_IR_SCC_IR_right_dir.fasta
+#
+# Regions Of Interest:
+#     Genome    ROI    Size    NFeatures    NIntervals    Path
+#
+#
+Target	Sample	Library	Measure	Value	# Description
+Ypestis	*	*	lib_type	SE	# SE, PE, or * (for both)
+Ypestis	*	*	seq_reads_se	16850139	# Total number of single-ended reads
+Ypestis	*	*	seq_trash_se	97133	# Total number of trashed reads
+Ypestis	*	*	seq_trash_se_frac	0.00576452217991	# Fraction of SE reads trashed
+Ypestis	*	*	seq_retained_reads	16753006	# Total number of retained reads
+Ypestis	*	*	seq_retained_nts	981709068	# Total number of NTs in retained reads
+Ypestis	*	*	seq_retained_length	58.5989802666	# Average number of NTs in retained reads
+
+Ypestis	*	*	hits_raw(CP9104_HP1)	185827	# Total number of hits (prior to PCR duplicate filtering)
+Ypestis	*	*	hits_raw_frac(CP9104_HP1)	0.0110921586251	# Total number of hits vs. total number of reads retained
+Ypestis	*	*	hits_clonality(CP9104_HP1)	0.562738461042	# Fraction of hits that were PCR duplicates
+Ypestis	*	*	hits_unique(CP9104_HP1)	81255	# Total number of hits (excluding any PCR duplicates)
+Ypestis	*	*	hits_unique_frac(CP9104_HP1)	0.0048501743508	# Total number of unique hits vs. total number of reads retained
+Ypestis	*	*	hits_coverage(CP9104_HP1)	27.0042615537	# Estimated coverage from unique hits
+Ypestis	*	*	hits_length(CP9104_HP1)	52.1723463171	# Average number of aligned bases per unique hit
+
+
+Ypestis	MySample	*	lib_type	SE	# SE, PE, or * (for both)
+Ypestis	MySample	*	seq_reads_se	16850139	# Total number of single-ended reads
+Ypestis	MySample	*	seq_trash_se	97133	# Total number of trashed reads
+Ypestis	MySample	*	seq_trash_se_frac	0.00576452217991	# Fraction of SE reads trashed
+Ypestis	MySample	*	seq_retained_reads	16753006	# Total number of retained reads
+Ypestis	MySample	*	seq_retained_nts	981709068	# Total number of NTs in retained reads
+Ypestis	MySample	*	seq_retained_length	58.5989802666	# Average number of NTs in retained reads
+
+Ypestis	MySample	*	hits_raw(CP9104_HP1)	185827	# Total number of hits (prior to PCR duplicate filtering)
+Ypestis	MySample	*	hits_raw_frac(CP9104_HP1)	0.0110921586251	# Total number of hits vs. total number of reads retained
+Ypestis	MySample	*	hits_clonality(CP9104_HP1)	0.562738461042	# Fraction of hits that were PCR duplicates
+Ypestis	MySample	*	hits_unique(CP9104_HP1)	81255	# Total number of hits (excluding any PCR duplicates)
+Ypestis	MySample	*	hits_unique_frac(CP9104_HP1)	0.0048501743508	# Total number of unique hits vs. total number of reads retained
+Ypestis	MySample	*	hits_coverage(CP9104_HP1)	27.0042615537	# Estimated coverage from unique hits
+Ypestis	MySample	*	hits_length(CP9104_HP1)	52.1723463171	# Average number of aligned bases per unique hit
+
+
+Ypestis	MySample	ypestis	lib_type	SE	# SE, PE, or * (for both)
+Ypestis	MySample	ypestis	seq_reads_se	16850139	# Total number of single-ended reads
+Ypestis	MySample	ypestis	seq_trash_se	97133	# Total number of trashed reads
+Ypestis	MySample	ypestis	seq_trash_se_frac	0.00576452217991	# Fraction of SE reads trashed
+Ypestis	MySample	ypestis	seq_retained_reads	16753006	# Total number of retained reads
+Ypestis	MySample	ypestis	seq_retained_nts	981709068	# Total number of NTs in retained reads
+Ypestis	MySample	ypestis	seq_retained_length	58.5989802666	# Average number of NTs in retained reads
+
+Ypestis	MySample	ypestis	hits_raw(CP9104_HP1)	185827	# Total number of hits (prior to PCR duplicate filtering)
+Ypestis	MySample	ypestis	hits_raw_frac(CP9104_HP1)	0.0110921586251	# Total number of hits vs. total number of reads retained
+Ypestis	MySample	ypestis	hits_clonality(CP9104_HP1)	0.562738461042	# Fraction of hits that were PCR duplicates
+Ypestis	MySample	ypestis	hits_unique(CP9104_HP1)	81255	# Total number of hits (excluding any PCR duplicates)
+Ypestis	MySample	ypestis	hits_unique_frac(CP9104_HP1)	0.0048501743508	# Total number of unique hits vs. total number of reads retained
+Ypestis	MySample	ypestis	hits_coverage(CP9104_HP1)	27.0042615537	# Estimated coverage from unique hits
+Ypestis	MySample	ypestis	hits_length(CP9104_HP1)	52.1723463171	# Average number of aligned bases per unique hit
+
+
