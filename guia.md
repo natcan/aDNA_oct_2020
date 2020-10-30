@@ -2,8 +2,8 @@
 
 ## Introducción
  
-Para demostrar qué pasos se siguen para el análisis genómico de muestras antiguas, usaremos una muestra de Cinchona calisaya del 1852, cuyo registro señala que tiene origen en América del Sur.
-
+Para demostrar qué pasos se siguen para el análisis genómico de muestras antiguas, usaremos una muestra de _Cinchona calisaya_ del 1852, cuyo registro señala que tiene origen en América del Sur.
+Usaremos Paleomix (bam_pipeline) para obtener reads limpios y hacer un consenso del genoma del cloroplasto de _C. calisaya_ (1852)
 
 ### Files
 
