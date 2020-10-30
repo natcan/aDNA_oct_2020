@@ -2,26 +2,23 @@
 
 ## Introducción
  
-Para demostrar qué pasos se siguen para el análisis genómico de muestras antiguas, usaremos los datos disponibles de esta publicación sobre _Yersinia pestis_: https://www.nature.com/articles/nature10549
+Para demostrar qué pasos se siguen para el análisis genómico de muestras antiguas, usaremos una muestra de Cinchona calisaya del 1852, cuyo registro señala que tiene origen en América del Sur.
 
 
 ### Files
 
-Genoma de referencia: https://www.ncbi.nlm.nih.gov/nuccore/NC_003143.1/
+Genoma de referencia: _Cinchona pubescens_  
 > GenBank (ahora .fasta) y Send to (ahora File)
 
-Datos de aDNA: https://www.ebi.ac.uk/ena/browser/view/SRP008060
-Descargar toda la data (7 files de human oral metagenome)
+Datos de aDNA: transferir de un backup
+```scp ./old_gs/PRI-VIMCR-Ccalisaya3_S10_L008_R1_001.fastq.gz natcan@saga.sigma2.no:/cluster/work/users/natcan/evo_2020```
+
+Tedioso: Prueba Filezilla
+
 
 ## Análisis bioinformático para la autenticación y limpieza de aDNA
 
-```unzip ena_files.zip```# Descomprimir los archivos .zip
 
-```gzip -d  SRR34196*.fastq.gz``` # Descomprimir los archivos .gz
-
-```rm *.zip``` #eliminar el .zip
-
-Tedioso? probar: Filezilla
 
 ```vim ``` editar el .yaml file de acuerdo a la configuración
 
